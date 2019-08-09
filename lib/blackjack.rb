@@ -1,4 +1,3 @@
-require 'pry'
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -71,5 +70,4 @@ def runner
     display_card_total(card_total)
   end
 end_game(card_total)
-
 end
